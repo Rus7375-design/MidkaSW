@@ -1,9 +1,9 @@
-package src.main.java.com.example.Mapper;
+package com.example.Mapper;
 
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
-import test.dto.dto.StudentDto;
-import test.dto.entity.StudentEntity;
+import com.example.dto.StudentDto;
+import com.example.Entity.StudentEntity;
 
 import java.util.List;
 

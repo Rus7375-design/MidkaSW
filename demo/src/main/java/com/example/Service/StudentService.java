@@ -1,21 +1,21 @@
-package src.main.java.com.example.Service;
+package com.example;
 
 import org.springframework.stereotype.Service;
-import test.dto.dto.StudentDto;
-import test.dto.entity.StudentEntity;
-import test.dto.mapper.StudentMapper;
-import test.dto.repository.StudentRepository;
+import com.example.dto.StudentDto;
+import com.example.Entity.StudentEntity;
+import com.example.Mapper.Mapper;
+import com.example.repository.StudentRep;
 
 import java.util.List;
 import java.util.Optional;
 
 @Service
-public class StudentService {
+public class Service {
 
     private final StudentRepository repository;
     private final StudentMapper mapper;
 
-    public StudentService(StudentRepository repository, StudentMapper mapper) {
+    public Service(StudentRepository repository, StudentMapper mapper) {
         this.repository = repository;
         this.mapper = mapper;
     }
